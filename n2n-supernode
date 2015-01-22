@@ -32,7 +32,7 @@ PATH=/sbin:/usr/sbin:/bin:/usr/bin
 DESC="n2n supernode"
 NAME=n2n-supernode
 DAEMON=/usr/sbin/supernode
-DAEMON_ARGS=""
+DAEMON_ARGS="-l 5000"
 SCRIPTNAME=/etc/init.d/$NAME
 
 # Exit if the package is not installed
